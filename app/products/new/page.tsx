@@ -1,0 +1,1 @@
+import {Nav} from '../../../components/Nav';import {ProductForm} from '../../../components/ProductForm';export default function NewProductPage(){return <><Nav/><main className="mx-auto max-w-7xl p-6 space-y-5"><ProductForm mode="create"/></main></>}

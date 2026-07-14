@@ -1,22 +1,24 @@
-# MON CHIC PARIS – Release 2.1
-
-## Markenauftritt aktualisiert
-- MON CHIC PARIS
-- DESIGN STUDIO
-- Fashion. Creativity. Innovation.
-- Luxury Fashion meets Digital Innovation
+# Release 2.0.1 – MON CHIC PARIS Design System V2.0
 
 ## Neu
-- Upload-Schaltfläche in der KI-Produktaufnahme
-- Vorschau für bis zu 9 Produktfotos
-- Fotos können einzeln entfernt werden
-- Neues Artikel-Feld `Stil` mit 9 Stilrichtungen in DE/EN/FR-Anzeige
-- Erweiterte Artikel-DNA: Muster, Anlass, Epoche, Seltenheit
-- API und Produkttypen um neue Felder erweitert
-- Supabase-Migration für neue Spalten
 
-## Vor GitHub-Upload
-Führe zuerst den Inhalt von `supabase/migration_2_1_article_dna.sql` im Supabase SQL Editor aus.
+- Dachmarke: **MON CHIC PARIS – Design Studio**
+- Claim: **Luxury Fashion · Content Creation · Business App Solutions**
+- neues Logo in `public/mon-chic-paris-logo-v2.png`
+- neue Farb- und Typografiesprache
+- neues responsives Dashboard
+- Workspaces für Fashion, Design Studio, KI Studio und Business
+- eigene Einstiegsseiten für Analytics und Einstellungen
+- aktive Navigation mit Hervorhebung des aktuellen Bereichs
 
-## Sicherheit
-Designer-Level, Echtheit und Zustand bleiben manuell zu bestätigen.
+## Nicht verändert
+
+- Supabase Datenbank
+- bestehende API-Routen
+- vorhandene Artikel- und Ausgabendaten
+- Produktformular und Speicherung
+- Etikettenlogik
+
+## Danach geplant
+
+Release 2.1: Fashion-Datenmodell mit `style_key`, neun Stilrichtungen und Artikel-DNA.
